@@ -1,0 +1,27 @@
+{
+    "name": "luanardev/recruitment-module",
+    "type": "laravel-module",
+    "description": "Lumis Recruitment Module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "bsimpokolwe@luanar.ac.mw"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+				"Luanardev\\Modules\\Recruitment\\Providers\\RecruitmentServiceProvider"
+			],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Luanardev\\Modules\\LeaveManagement\\": ""
+        }
+    }
+}
